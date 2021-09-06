@@ -7,4 +7,5 @@ public interface Queue<T> {
     int getSize();
     void clear();
     boolean contains(T string);
+    boolean isEmpty();
 }

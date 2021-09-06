@@ -34,8 +34,8 @@ public class Main {
         System.out.println("Exercise *");
 
         MyStack<Character> charStack = new MyStack<Character>();
-            String sentence = "(x + [y - z] * {7+m})";
-            //String sentence = "(x + {y * [z} + 8])";
+            //String sentence = "(x + [y - z] * {7+m})";
+            String sentence = "(x + {y * [z} + 8])";
             char[] charArr = sentence.toCharArray();
             boolean isRightSentence = true;
             charStack.push(charArr[0]);

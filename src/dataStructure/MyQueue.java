@@ -51,6 +51,9 @@ public class MyQueue<T> implements Queue<T>, Iterable<T>{
         array = (T[])new Object[0];
         size = 0;
     }
+    public boolean isEmpty(){
+        return size == 0;
+    }
     public Iterator<T> iterator(){
         return new QueueIterator<T>();
     }

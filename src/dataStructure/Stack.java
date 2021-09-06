@@ -7,4 +7,5 @@ public interface Stack<T> {
     int getSize();
     void clear();
     boolean contains(T string);
+    boolean isEmpty();
 }

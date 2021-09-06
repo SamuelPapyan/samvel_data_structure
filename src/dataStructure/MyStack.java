@@ -45,6 +45,9 @@ public class MyStack<T> implements Stack<T>,Iterable<T>{
                 return true;
         return false;
     }
+    public boolean isEmpty(){
+        return size == 0;
+    }
     public int getSize(){
         return size;
     }
