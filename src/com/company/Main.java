@@ -83,5 +83,18 @@ public class Main {
         for(int item : stack){
             System.out.println(item);
         }
+
+
+        System.out.println("MyHashMap example");
+        Person p1 = new Person("Gagik",17,Gender.MALE);
+        Person p2 = new Person("Anna",18,Gender.FEMALE);
+        Person p3 = new Person("Andrey",10,Gender.MALE);
+        MyHashMap<Person, Double> salary = new MyHashMap<>();
+        salary.put(p1,1245.66);
+        salary.put(p2,2345.77);
+        salary.put(p3,3456.88);
+        System.out.println(p1 + " | " + salary.get(p1));
+        System.out.println(p2 + " | " + salary.get(p2));
+        System.out.println(p3 + " | " + salary.get(p3));
     }
 }

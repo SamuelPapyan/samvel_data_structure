@@ -1,4 +1,4 @@
-package customPackage;
+package com.company;
 
 public enum Gender{
     MALE,

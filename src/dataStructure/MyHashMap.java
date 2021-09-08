@@ -1,5 +1,4 @@
 package dataStructure;
-import java.util.ArrayList;
 
 public class MyHashMap<K, V> {
     private class Bucket<K, V> {

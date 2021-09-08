@@ -1,4 +1,4 @@
-package customPackage;
+package com.company;
 
 
 public class Person implements Comparable<Person>{
