@@ -84,7 +84,7 @@ public class Main {
             System.out.println(item);
         }
 
-
+        /*
         System.out.println("MyHashMap example");
         Person p1 = new Person("Gagik",17,Gender.MALE);
         Person p2 = new Person("Anna",18,Gender.FEMALE);
@@ -96,5 +96,36 @@ public class Main {
         System.out.println(p1 + " | " + salary.get(p1));
         System.out.println(p2 + " | " + salary.get(p2));
         System.out.println(p3 + " | " + salary.get(p3));
+        */
+        Company c1 = new Company("Microsoft");
+        Company c2 = new Company("ArmSoft");
+        Company c3 = new Company("Instigate");
+        Company c4 = new Company("Synopsys");
+
+        Employee e1 = new Employee("Andrew",21,c1);
+        Employee e2 = new Employee("David",22,c1);
+        Employee e3 = new Employee("Luke",22,c2);
+        Employee e4 = new Employee("John",21,c3);
+
+        System.out.println(e1);
+        System.out.println(e2);
+        System.out.println(e3);
+        System.out.println(e4);
+        System.out.println(c1);
+        for(Employee emp : c1.getEmployees()){
+            System.out.println(emp);
+        }
+        System.out.println(c2);
+        for(Employee emp : c2.getEmployees()){
+            System.out.println(emp);
+        }
+        System.out.println(c3);
+        for(Employee emp : c3.getEmployees()){
+            System.out.println(emp);
+        }
+        System.out.println(c4);
+        for(Employee emp : c4.getEmployees()){
+            System.out.println(emp);
+        }
     }
 }
